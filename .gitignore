@@ -1,0 +1,64 @@
+
+# dependencies
+**/node_modules
+# roadhog-api-doc ignore
+/src/utils/request-temp.js
+_roadhog-api-doc
+
+# production
+/dist
+/.vscode
+/.fleet
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-error.log
+
+/coverage
+.idea/
+package-lock.json
+*bak
+.vscode
+.zed
+
+# visual studio code
+.history
+*.log
+functions/*
+.temp/**
+
+# umi
+.umi
+.umi-production
+
+# screenshot
+screenshot
+.firebase
+.eslintcache
+
+build
+
+# env
+.env.development
+.env.override
+http-client.env.json
+.env
+
+#codegen
+codegen.yml
+style-guide.md
+
+.env.local
+
+# Sentry Config File
+.sentryclirc
+gha-creds-*.json
+
+
+/.terraform
+
+src/build-id.json
+
+# Sentry Config File
+.env.sentry-build-plugin
